@@ -1,7 +1,13 @@
 import React from "react";
 
+import TableOnGoing from "../../components/Table/TableOnGoing";
+
 function OnGoing() {
-  return <div>OnGoing</div>;
+  return (
+    <>
+      <TableOnGoing />
+    </>
+  );
 }
 
 export default OnGoing;

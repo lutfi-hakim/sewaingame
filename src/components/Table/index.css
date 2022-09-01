@@ -1,0 +1,16 @@
+.table>thead {
+    vertical-align: bottom;
+    font-size: 13px;
+    font-weight: 700;
+}
+.table>tbody {
+    vertical-align: inherit;
+    font-size: 12px;
+    font-weight: 600;
+}
+.table-bordered>:not(caption)>*>* {
+    border: none;
+}
+.table>:not(caption)>*>* {
+    padding: 1rem 0.6rem !important;
+}
