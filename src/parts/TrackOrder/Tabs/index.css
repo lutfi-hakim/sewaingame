@@ -1,0 +1,21 @@
+.tab-order{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.tab-order div{
+    margin: 15px 15px 10px 0;
+    cursor: pointer;
+}
+
+.tab-order-active{
+    font-weight: 600;
+    font-size: 13px;
+    border-bottom: 3px solid #0047FD;
+}
+
+.tab-order-nonactive{
+    font-weight: 600;
+    font-size: 13px;
+    color: #bbb;
+}
