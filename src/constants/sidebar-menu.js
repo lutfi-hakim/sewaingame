@@ -1,9 +1,11 @@
-import DashboardIcon from "../assets/icons/dashboard.svg";
-import ShippingIcon from "../assets/icons/shipping.svg";
-import ProductIcon from "../assets/icons/product.svg";
-import UserIcon from "../assets/icons/user.svg";
-import bagIcon from "../assets/icons/bag.svg";
-import ArrowRight from "../assets/icons/arrowRight.svg";
+import DashboardIcon from "../assets/icon/home-svgrepo-com.svg";
+
+import OrderIcon from "../assets/icon/order-svgrepo-com.svg";
+
+import HistoryIcon from "../assets/icon/history-svgrepo-com.svg";
+import TranIcon from "../assets/icon/transaction-svgrepo-com.svg";
+import bANKIcon from "../assets/icon/bank-terminal-svgrepo-com.svg";
+import BisIcon from "../assets/icon/check-business-and-finance-svgrepo-com.svg";
 
 const sidebar_menu = [
   {
@@ -15,36 +17,36 @@ const sidebar_menu = [
   },
   {
     id: 2,
-    icon: bagIcon,
-    icons: ArrowRight,
+    icon: OrderIcon,
+    icons: OrderIcon,
     path: "/track-order",
     title: "Track Order",
   },
   {
     id: 3,
-    icon: bagIcon,
-    icons: ArrowRight,
+    icon: bANKIcon,
+    icons: bANKIcon,
     path: "/account-receivable",
     title: "Account Receivable",
   },
   {
     id: 4,
-    icon: bagIcon,
-    icons: ArrowRight,
+    icon: TranIcon,
+    icons: TranIcon,
     path: "/transaction",
     title: "Transactions",
   },
   {
     id: 5,
-    icon: bagIcon,
-    icons: ArrowRight,
+    icon: BisIcon,
+    icons: BisIcon,
     path: "/billing",
     title: "Billing Statement",
   },
   {
     id: 6,
-    icon: bagIcon,
-    icons: ArrowRight,
+    icon: HistoryIcon,
+    icons: HistoryIcon,
     path: "/history",
     title: "History",
   },

@@ -3,6 +3,7 @@ import "./App.css";
 import SideBar from "./components/Sidebar";
 import sidebar_menu from "./constants/sidebar-menu";
 import AccountReceivable from "./pages/AccountReceivable";
+import Home from "./pages/Home";
 import TrackOrder from "./pages/TrackOrder";
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
           <div className="dashboard-body">
             <Routes>
               <Route path="*" element={<div></div>} />
-              <Route exact path="/" element={<div></div>} />
+              <Route exact path="/" element={<Home />} />
               <Route exact path="/track-order" element={<TrackOrder />} />
               <Route
                 exact
