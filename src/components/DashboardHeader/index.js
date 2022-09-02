@@ -13,6 +13,9 @@ function DashboardHeader({ title }) {
       </div>
 
       <div className="dashbord-header-right">
+        <a href="#">Top Up</a>
+        <a href="#">Expensess</a>
+        <a href="#">Ticket</a>
         <img
           src={NotificationIcon}
           alt="notification-icon"
