@@ -21,7 +21,7 @@ function TrackOrder() {
   return (
     <>
       <div className="dashboard-content">
-        <DashboardHeader />
+        <DashboardHeader title={"Track Order"} />
         <div className="dashboard-content-container">
           <div>
             <OrderTabs setSelectedTab={setSelectedTab} active={selectedTab} />

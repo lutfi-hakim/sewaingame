@@ -31,7 +31,7 @@ function SideBar({ menu }) {
     <nav className={`sidebar ${state.sidebarClass}`}>
       <div className="sidebar-container">
         <div className="sidebar-logo-container">
-          <img src="LOGO" alt="logo" />
+          <h3>LOGO BRAND</h3>
         </div>
 
         <div className="sidebar-container">

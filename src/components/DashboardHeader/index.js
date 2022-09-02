@@ -5,11 +5,11 @@ import NotificationIcon from "../../assets/icons/notification.svg";
 import SettingsIcon from "../../assets/icons/settings.svg";
 import DropdownProfile from "../DropdownProfile/DropdownProfile";
 
-function DashboardHeader() {
+function DashboardHeader({ title }) {
   return (
     <div className="dashbord-header-container">
       <div className="dashbord-header-logo">
-        {/* <img src="https://bayubuanatravel.com/assets/images/logo.png" alt="" /> */}
+        <h3>{title}</h3>
       </div>
 
       <div className="dashbord-header-right">

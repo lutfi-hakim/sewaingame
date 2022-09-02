@@ -1,5 +1,5 @@
 import "./index.css";
-
+import { Form } from "react-bootstrap";
 function OrderTabs({ setSelectedTab, active }) {
   console.log(active);
   return (
@@ -39,7 +39,17 @@ function OrderTabs({ setSelectedTab, active }) {
         </div>
       </div>
       <div className="tab-filter">
-        
+        <Form.Group className="w-35 form-rang" controlId="test-date-input">
+          <Form.Control
+            type="date"
+            max={new Date().toISOString().slice(0, 10)}
+          />
+          {" /"}
+          <Form.Control
+            type="date"
+            max={new Date().toISOString().slice(0, 10)}
+          />
+        </Form.Group>
       </div>
     </div>
   );

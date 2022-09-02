@@ -1,3 +1,12 @@
+.wrapper-tab{
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .tab-order{
     position: relative;
     display: flex;
@@ -11,11 +20,25 @@
 .tab-order-active{
     font-weight: 600;
     font-size: 13px;
-    border-bottom: 3px solid #0047FD;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #0047FD;
 }
 
 .tab-order-nonactive{
     font-weight: 600;
     font-size: 13px;
     color: #bbb;
+}
+
+.tab-filter .form-rang{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.tab-filter .form-rang input{ 
+    margin: 0 10px;
+}
+
+.form-control{
+    font-size: 12px !important;
 }

@@ -1,10 +1,14 @@
 .dashbord-header-container {
-    padding: 1em 2rem;
+    padding: 1em 0rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    box-shadow:0px 1px 1px #d1d1d1;
+    /* box-shadow:0px 1px 1px #d1d1d1; */
+}
+.dashbord-header-logo{
+    margin-left: 0;
+    padding-left: 0;
 }
 /* .dashbord-header-btn {
     padding: 0.8em;

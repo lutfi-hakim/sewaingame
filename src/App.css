@@ -9,3 +9,6 @@
   /* background-color: #F0F2F5; */
   margin-left: 24px;
 }
+.dashboard-body .dashboard-content{
+  padding-right: 1rem;
+}
